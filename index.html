@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Valentino Ginolfi - Aspirante Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- AOS Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="foto.jpg" alt="Valentino Ginolfi" class="profile-pic" />
+    <h1>Valentino Ginolfi</h1>
+    <p>Aspirante Data Analyst</p>
+    <nav>
+      <a href="#about">Chi Sono</a>
+      <a href="#certificates">Certificati</a>
+      <a href="#contact">Contatti</a>
+      <button id="toggle-theme" aria-label="Cambia Tema">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" data-aos="fade-up">
+      <h2>Chi Sono</h2>
+      <p>Ciao! Sono Valentino, un aspirante data analyst appassionato di dati, Python, SQL, Tableau e Kaggle.</p>
+    </section>
+
+    <section id="certificates" data-aos="fade-up">
+      <h2>Certificati</h2>
+      <ul>
+        <li>
+          <a class="button" href="certificato_google_data_analytics.pdf" target="_blank">Certificato Google Data Analytics</a>
+          <p>Ho completato il corso Google Data Analytics. Altri certificati in arrivo!</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h2>Contatti</h2>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/valentino-ginolfi-27763b224/" target="_blank" class="social-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://www.kaggle.com/valentinoginolfi" target="_blank" class="social-link">
+          <i class="fas fa-chart-line"></i> Kaggle
+        </a>
+        <a href="https://public.tableau.com/app/profile/valentino.ginolfi/vizzes" target="_blank" class="social-link">
+          <i class="fas fa-table"></i> Tableau Public
+        </a>
+      </div>
+      <p>Email: <a href="mailto:vale95gin@outlook.it" class="email-link">vale95gin@outlook.it</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Valentino Ginolfi</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
